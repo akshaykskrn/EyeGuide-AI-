@@ -36,9 +36,9 @@ if sys.platform == 'win32':
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # -------------- CONFIGURATION -----------------
-AZURE_ENDPOINT = "https://eyeguideai2025.cognitiveservices.azure.com/"
-AZURE_KEY = "CSiHUHZYTZKcj8iTiwyKmzic5eljvaQ1slyANS24QsSzVpojIJIdJQQJ99BDACYeBjFXJ3w3AAAFACOG1o1R"
-SOS_PHONE_NUMBER = "8073320798"  # Include country code for international numbers
+AZURE_ENDPOINT = "******************************"
+AZURE_KEY = "**************************************"
+SOS_PHONE_NUMBER = "**************"  # Include country code for international numbers
 
 # WhatsApp configuration
 WHATSAPP_POTENTIAL_PATHS = [
