@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 750" style="background-color: white;">
+  <defs>
+    <style>
+      .node rect { fill: #f0f8ff; stroke: #333; stroke-width: 2px; }
+      .edgePath path { stroke: #333; stroke-width: 1.5px; fill: none; }
+      text { font-family: Arial, sans-serif; font-size: 14px; fill: #333; }
+      .node-text { font-weight: normal; text-anchor: middle; }
+      .output-node rect { fill: #f5f5f5; }
+    </style>
+  </defs>
+  
+  <!-- Input Layer -->
+  <g class="node" transform="translate(450, 50)">
+    <rect x="-110" y="-25" width="220" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Camera Input</text>
+  </g>
+  
+  <!-- Pre-processing Layer -->
+  <g class="node" transform="translate(450, 130)">
+    <rect x="-110" y="-25" width="220" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Pre-processing</text>
+  </g>
+  
+  <!-- Core AI Modules -->
+  <g class="node" transform="translate(450, 210)">
+    <rect x="-110" y="-25" width="220" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Core AI Modules</text>
+  </g>
+  
+  <!-- UI Layer -->
+  <g class="node" transform="translate(100, 210)">
+    <rect x="-90" y="-25" width="180" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">User Interface</text>
+  </g>
+  
+  <!-- Main Branches -->
+  <g class="node" transform="translate(225, 290)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">YOLOv8 Model</text>
+  </g>
+  
+  <g class="node" transform="translate(450, 290)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">OCR Engine</text>
+  </g>
+  
+  <g class="node" transform="translate(675, 290)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Alert System</text>
+  </g>
+  
+  <!-- Second Layer -->
+  <g class="node" transform="translate(150, 370)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Object Analysis</text>
+  </g>
+  
+  <g class="node" transform="translate(350, 370)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Azure Computer Vision</text>
+  </g>
+  
+  <g class="node" transform="translate(550, 370)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Tesseract OCR</text>
+  </g>
+  
+  <g class="node" transform="translate(750, 370)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Location Services</text>
+  </g>
+  
+  <g class="node" transform="translate(950, 370)" style="visibility: visible">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">WhatsApp Integration</text>
+  </g>
+  
+  <!-- Third Layer -->
+  <g class="node" transform="translate(225, 450)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Distance Calculation</text>
+  </g>
+  
+  <g class="node" transform="translate(450, 450)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Text Processing</text>
+  </g>
+  
+  <g class="node" transform="translate(675, 450)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">SOS Message Generation</text>
+  </g>
+  
+  <!-- Output Layer -->
+  <g class="node output-node" transform="translate(225, 530)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Voice Announcements</text>
+  </g>
+  
+  <g class="node output-node" transform="translate(450, 530)">
+    <rect x="-100" y="-25" width="200" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">Text-to-Speech Output</text>
+  </g>
+  
+  <!-- User Feedback -->
+  <g class="node" transform="translate(450, 610)">
+    <rect x="-110" y="-25" width="220" height="50" rx="5" ry="5"></rect>
+    <text class="node-text" x="0" y="5">User Feedback</text>
+  </g>
+  
+  <!-- Connections -->
+  <!-- Main flow -->
+  <g class="edgePath">
+    <path d="M450,75 L450,105"></path>
+    <polygon points="450,110 445,100 455,100" style="fill:#333;"></polygon>
+  </g>
+  
+  <g class="edgePath">
+    <path d="M450,155 L450,185"></path>
+    <polygon points="450,190 445,180 455,180" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- UI to Core -->
+  <g class="edgePath">
+    <path d="M190,210 L340,210"></path>
+    <polygon points="345,210 335,205 335,215" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- To AI modules -->
+  <g class="edgePath">
+    <path d="M450,235 L450,245 L225,245 L225,265"></path>
+    <polygon points="225,270 220,260 230,260" style="fill:#333;"></polygon>
+  </g>
+  
+  <g class="edgePath">
+    <path d="M450,235 L450,265"></path>
+    <polygon points="450,270 445,260 455,260" style="fill:#333;"></polygon>
+  </g>
+  
+  <g class="edgePath">
+    <path d="M450,235 L450,245 L675,245 L675,265"></path>
+    <polygon points="675,270 670,260 680,260" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- YOLOv8 to Object Analysis -->
+  <g class="edgePath">
+    <path d="M225,315 L225,325 L150,325 L150,345"></path>
+    <polygon points="150,350 145,340 155,340" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- OCR to Azure -->
+  <g class="edgePath">
+    <path d="M450,315 L450,325 L350,325 L350,345"></path>
+    <polygon points="350,350 345,340 355,340" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- OCR to Tesseract -->
+  <g class="edgePath">
+    <path d="M450,315 L450,325 L550,325 L550,345"></path>
+    <polygon points="550,350 545,340 555,340" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Alert to Location -->
+  <g class="edgePath">
+    <path d="M675,315 L675,325 L750,325 L750,345"></path>
+    <polygon points="750,350 745,340 755,340" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Alert to WhatsApp - keep but place offscreen -->
+  <g class="edgePath" style="visibility: hidden">
+    <path d="M675,315 L675,325 L950,325 L950,345"></path>
+    <polygon points="950,350 945,340 955,340" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Object Analysis to Distance -->
+  <g class="edgePath">
+    <path d="M150,395 L150,410 L225,410 L225,425"></path>
+    <polygon points="225,430 220,420 230,420" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Azure to Text Processing -->
+  <g class="edgePath">
+    <path d="M350,395 L350,410 L450,410 L450,425"></path>
+    <polygon points="450,430 445,420 455,420" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Tesseract to Text Processing -->
+  <g class="edgePath">
+    <path d="M550,395 L550,410 L450,410 L450,425"></path>
+    <polygon points="450,430 445,420 455,420" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Location to SOS -->
+  <g class="edgePath">
+    <path d="M750,395 L750,410 L675,410 L675,425"></path>
+    <polygon points="675,430 670,420 680,420" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Distance to Voice -->
+  <g class="edgePath">
+    <path d="M225,475 L225,505"></path>
+    <polygon points="225,510 220,500 230,500" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Text Processing to Text-to-Speech -->
+  <g class="edgePath">
+    <path d="M450,475 L450,505"></path>
+    <polygon points="450,510 445,500 455,500" style="fill:#333;"></polygon>
+  </g>
+  
+  <!-- Output to User Feedback -->
+  <g class="edgePath">
+    <path d="M225,555 L225,580 L450,580 L450,585"></path>
+    <polygon points="450,590 445,580 455,580" style="fill:#333;"></polygon>
+  </g>
+  
+  <g class="edgePath">
+    <path d="M450,555 L450,585"></path>
+    <polygon points="450,590 445,580 455,580" style="fill:#333;"></polygon>
+  </g>
+  
+  <g class="edgePath">
+    <path d="M675,475 L675,580 L450,580 L450,585"></path>
+    <polygon points="450,590 445,580 455,580" style="fill:#333;"></polygon>
+  </g>
+</svg>

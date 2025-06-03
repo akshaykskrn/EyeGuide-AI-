@@ -1,0 +1,14 @@
+opencv-python>=4.5.0
+ultralytics>=8.0.0
+numpy>=1.20.0
+pyttsx3>=2.90
+pytesseract>=0.3.8
+pyautogui>=0.9.52
+keyboard>=0.13.5
+requests>=2.25.0
+psutil>=5.8.0
+pyperclip>=1.8.2
+pillow>=8.0.0
+pywin32>=300; platform_system=="Windows"
+azure-cognitiveservices-vision-computervision>=0.9.0
+msrest>=0.6.0
