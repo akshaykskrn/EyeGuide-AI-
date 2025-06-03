@@ -1,4 +1,4 @@
-# EyeGuide AI Enhanced
+# EyeGuide AI 
 
 ## Description
 EyeGuide AI Enhanced is an assistive technology application designed to help visually impaired users navigate their environment and interact with text through advanced computer vision techniques. The application combines real-time object detection, text recognition, and emergency assistance features in an accessible interface.
